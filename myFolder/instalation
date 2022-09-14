@@ -1,0 +1,85 @@
+
+# require package
+$> composer require laravel/octane
+
+# Install octane
+$> php artisan octane:install
+
+# Recommended PHP Extensions
+$> sudo apt install php8.0-curl php8.0-mysql php8.0-common
+
+# Useful PHP Extensions
+$> sudo apt install php8.0-bcmath php8.0-gd php8.0-intl php8.0-mbstring php8.0-opcache php8.0-xml php8.0-zip
+
+# Install swoole (https://openswoole.com/docs/get-started/installation#installing-via-php-pecl)
+$> sudo pecl install -D 'enable-sockets="no" enable-openssl="yes" enable-http2="yes" enable-mysqlnd="yes" enable-swoole-json="no" enable-swoole-curl="yes" enable-cares="yes" with-postgres="no"' openswoole
+
+# Install php swoole extension
+$> sudo apt install php8.0-swoole
+
+# start server with octane
+$> php artisan octane:start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+++++++++++++++++++ DUMP +++++++++++++++++++++++++
+# Recommended PHP Extensions
+$> sudo apt install php8.0-curl php8.0-mysql php8.0-common
+
+# Useful PHP Extensions
+$> sudo apt install php8.0-bcmath php8.0-gd php8.0-intl php8.0-mbstring php8.0-opcache php8.0-xml php8.0-zip
+
+# required extension
+$> sudo apt install php-pear
+$> sudo apt install php8.0-dev
+$> sudo apt install -y libc-ares-dev
+$> sudo apt install php8.0-swoole
+
+# install swoole (https://openswoole.com/docs/get-started/installation#installing-via-php-pecl)
+$> sudo pecl install -D 'enable-sockets="no" enable-openssl="yes" enable-http2="yes" enable-mysqlnd="yes" enable-swoole-json="no" enable-swoole-curl="yes" enable-cares="yes" with-postgres="no"' openswoole
+
+
+# setip octane
+$> php artisan octane:install
